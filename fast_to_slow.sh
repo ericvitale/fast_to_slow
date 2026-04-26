@@ -1,7 +1,7 @@
 #!/bin/bash
-SRC_DIR="/container/mnt/frigate-fast"
-DEST_DIR="/container/mnt/frigate-slow"
-AGE=4330
+SRC_DIR="~/mnt/frigate-fast"
+DEST_DIR="~/mnt/frigate-slow"
+AGE=1440
 DRY_RUN=false
 
 while [[ $# -gt 0 ]]; do
